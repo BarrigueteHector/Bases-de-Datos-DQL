@@ -17,7 +17,7 @@ Diego                Domingues
 Ana Sofia            Morales                                                    
 
 SQL> SELECT * FROM TRABAJADOR 
-SQL> WHERE ID < '4';
+     WHERE ID < '4';
 
 NOMBRE               APPAT                ID    FECHAING                        
 -------------------- -------------------- ----- --------                        
@@ -26,7 +26,7 @@ Fernando             Morales              2     02/02/01
 Diego                Domingues            3     23/10/12                        
 
 SQL> SELECT * FROM TRABAJADOR 
-SQL> WHERE APPAT = 'Morales';
+     WHERE APPAT = 'Morales';
 
 NOMBRE               APPAT                ID    FECHAING                        
 -------------------- -------------------- ----- --------                        
